@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v40-2004-12-02.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v40 2004-12-02" file="US06839732-20050104.XML" status="SAMPLE-DATA" id="us-patent-grant" country="US" date-produced="20041221" date-publ="20050104">
+  <us-bibliographic-data-grant>
+    <publication-reference>
+      <document-id>
+        <country>US</country>
+        <doc-number>06839732</doc-number>
+        <kind>B1</kind>
+        <date>20050104</date>
+      </document-id>
+    </publication-reference>
+    <application-reference appl-type="utility">
+      <document-id>
+        <country>US</country>
+        <doc-number>09617637</doc-number>
+        <date>20000717</date>
+      </document-id>
+    </application-reference>
+    <us-application-series-code>09</us-application-series-code>
+    <priority-claims>
+      <priority-claim sequence="01" kind="national">
+        <country>CA</country>
+        <doc-number>2293062</doc-number>
+        <date>19991222</date>
+      </priority-claim>
+    </priority-claims>
+    <us-term-of-grant>
+      <us-term-extension>749</us-term-extension>
+    </us-term-of-grant>
+    <classification-ipc>
+      <edition>7</edition>
+      <main-classification>G06F 1516</main-classification>
+      <further-classification>G06F 1730</further-classification>
+    </classification-ipc>
+    <classification-national>
+      <country>US</country>
+      <main-classification>709202</main-classification>
+      <further-classification>709227</further-classification>
+      <further-classification>709229</further-classification>
+      <further-classification>707 10</further-classification>
+    </classification-national>
+    <invention-title id="d0e71">Efficient use of domain socket pairs in communication for tightly coupled transactions</invention-title>
+    <references-cited>
+      <citation>
+        <patcit num="00001">
+          <document-id>
+            <country>US</country>
+            <doc-number>6073177</doc-number>
+            <kind>A</kind>
+            <name>Hebel et al.</name>
+            <date>20000600</date>
+          </document-id>
+        </patcit>
+        <category>cited by examiner</category>
+        <classification-national><country>US</country><main-classification>709228</main-classification></classification-national>
+      </citation>
+      <citation>
+        <patcit num="00002">
+          <document-id>
+            <country>US</country>
+            <doc-number>6105067</doc-number>
+            <kind>A</kind>
+            <name>Batra</name>
+            <date>20000800</date>
+          </document-id>
+        </patcit>
+        <category>cited by examiner</category>
+        <classification-national><country>US</country><main-classification>709227</main-classification></classification-national>
+      </citation>
+      <citation>
+        <patcit num="00003">
+          <document-id>
+            <country>US</country>
+            <doc-number>6243751</doc-number>
+            <kind>B1</kind>
+            <name>Chatterjee et al.</name>
+            <date>20010600</date>
+          </document-id>
+        </patcit>
+        <category>cited by examiner</category>
+        <classification-national><country>US</country><main-classification>709226</main-classification></classification-national>
+      </citation>
+      <citation>
+        <patcit num="00004">
+          <document-id>
+            <country>US</country>
+            <doc-number>6334114</doc-number>
+            <kind>B1</kind>
+            <name>Jacobs et al.</name>
+            <date>20011200</date>
+          </document-id>
+        </patcit>
+        <category>cited by examiner</category>
+        <classification-national><country>US</country><main-classification>705 26</main-classification></classification-national>
+      </citation>
+      <citation>
+        <patcit num="00005">
+          <document-id>
+            <country>US</country>
+            <doc-number>6345291</doc-number>
+            <kind>B2</kind>
+            <name>Murphy et al.</name>
+            <date>20020200</date>
+          </document-id>
+        </patcit>
+        <category>cited by examiner</category>
+        <classification-national><country>US</country><main-classification>709208</main-classification></classification-national>
+      </citation>
+      <citation>
+        <patcit num="00006">
+          <document-id>
+            <country>US</country>
+            <doc-number>6370583</doc-number>
+            <kind>B1</kind>
+            <name>Fishler et al.</name>
+            <date>20020400</date>
+          </document-id>
+        </patcit>
+        <category>cited by examiner</category>
+        <classification-national><country>US</country><main-classification>709238</main-classification></classification-national>
+      </citation>
+      <citation>
+        <patcit num="00007">
+          <document-id>
+            <country>US</country>
+            <doc-number>6425017</doc-number>
+            <kind>B1</kind>
+            <name>Dievendorff et al.</name>
+            <date>20020700</date>
+          </document-id>
+        </patcit>
+        <category>cited by examiner</category>
+        <classification-national><country>US</country><main-classification>719315</main-classification></classification-national>
+      </citation>
+      <citation>
+        <patcit num="00008">
+          <document-id>
+            <country>US</country>
+            <doc-number>6477569</doc-number>
+            <kind>B1</kind>
+            <name>Sayan et al.</name>
+            <date>20021100</date>
+          </document-id>
+        </patcit>
+        <category>cited by examiner</category>
+        <classification-national><country>US</country><main-classification>709223</main-classification></classification-national>
+      </citation>
+      <citation>
+        <patcit num="00009">
+          <document-id>
+            <country>US</country>
+            <doc-number>6760733</doc-number>
+            <kind>B1</kind>
+            <name>Komine et al.</name>
+            <date>20040700</date>
+          </document-id>
+        </patcit>
+        <category>cited by examiner</category>
+        <classification-national><country>US</country><main-classification>707102</main-classification></classification-national>
+      </citation>
+      <citation>
+        <nplcit num="00010">
+          <othercit>JetNet/BEA Tuxedo Guide &#x201c;Chapter 8 . BEA Tuxedo Features&#x201d; Retrieved from http://www.prolifics.com/docs/panther/html/jet_html/jntuxedo.htm on Sep. 29, 2004.* </othercit>
+        </nplcit>
+        <category>cited by other</category>
+      </citation>
+      <citation>
+        <nplcit num="00011">
+          <othercit>DB2 Documentation Guide, &#x201c;The World of DB2 Universal Database&#x201d;, https://aurora.vcu.edu/db2help/db2d0/frame3.htm#db2d0216.* </othercit>
+        </nplcit>
+        <category>cited by other</category>
+      </citation>
+      <citation>
+        <nplcit num="00012">
+          <othercit>Corcoran, Peter, &#x201c;Mapping Home-Network Appliances to TCP/IP Sockets&#x201d; 1998 IEEE.* </othercit>
+        </nplcit>
+        <category>cited by other</category>
+      </citation>
+      <citation>
+        <nplcit num="00013">
+          <othercit>Heindel et al. &#x201c;Gueued Transaction Processing within the Unix Operating System Environment&#x201d; 1993 IEEE.</othercit>
+        </nplcit>
+        <category>cited by examiner</category>
+      </citation>
+    </references-cited>
+    <number-of-claims>14</number-of-claims>
+    <us-exemplary-claim>1</us-exemplary-claim>
+    <field-of-search>
+      <classification-national>
+        <country>US</country>
+        <main-classification>709101-104</main-classification>
+        <additional-info>unstructured</additional-info>
+      </classification-national>
+      <classification-national>
+        <country>US</country>
+        <main-classification>709201-203</main-classification>
+        <additional-info>unstructured</additional-info>
+      </classification-national>
+      <classification-national>
+        <country>US</country>
+        <main-classification>709227-229</main-classification>
+        <additional-info>unstructured</additional-info>
+      </classification-national>
+      <classification-national>
+        <country>US</country>
+        <main-classification>709238</main-classification>
+      </classification-national>
+      <classification-national>
+        <country>US</country>
+        <main-classification>709243-244</main-classification>
+        <additional-info>unstructured</additional-info>
+      </classification-national>
+      <classification-national>
+        <country>US</country>
+        <main-classification>707 10</main-classification>
+      </classification-national>
+    </field-of-search>
+    <figures>
+      <number-of-drawing-sheets>2</number-of-drawing-sheets>
+      <number-of-figures>2</number-of-figures>
+    </figures>
+    <parties>
+      <applicants>
+        <applicant sequence="001" app-type="applicant-inventor" designation="us-only">
+          <addressbook>
+            <last-name>Vincent</last-name>
+            <first-name>Tim J.</first-name>
+            <address>
+              <city>Toronto</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+          <residence>
+            <country>CA</country>
+          </residence>
+        </applicant>
+        <applicant sequence="002" app-type="applicant-inventor" designation="us-only">
+          <addressbook>
+            <last-name>Xue</last-name>
+            <first-name>Xun</first-name>
+            <address>
+              <city>Scarborough</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+          <residence>
+            <country>CA</country>
+          </residence>
+        </applicant>
+        <applicant sequence="003" app-type="applicant-inventor" designation="us-only">
+          <addressbook>
+            <last-name>Pereyra</last-name>
+            <first-name>Hebert W.</first-name>
+            <address>
+              <city>Toronto</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+          <residence>
+            <country>CA</country>
+          </residence>
+        </applicant>
+        <applicant sequence="004" app-type="applicant-inventor" designation="us-only">
+          <addressbook>
+            <last-name>Shum</last-name>
+            <first-name>Peter K. L.</first-name>
+            <address>
+              <city>Richard Hill</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+          <residence>
+            <country>CA</country>
+          </residence>
+        </applicant>
+        <applicant sequence="005" app-type="applicant-inventor" designation="us-only">
+          <addressbook>
+            <last-name>Lind</last-name>
+            <first-name>Jon A.</first-name>
+            <address>
+              <city>Toronto</city>
+              <country>CA</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>CA</country>
+          </nationality>
+          <residence>
+            <country>CA</country>
+          </residence>
+        </applicant>
+      </applicants>
+      <agents>
+        <agent sequence="01" rep-type="attorney">
+          <addressbook>
+            <last-name>Doudnikoff</last-name>
+            <first-name>Gregory M.</first-name>
+            <address>
+              <country>unknown</country>
+            </address>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <assignees>
+      <assignee>
+        <addressbook>
+          <orgname>International Business Machines Corporation</orgname>
+          <role>02</role>
+          <address>
+            <city>Armonk</city>
+            <state>NY</state>
+            <country>US</country>
+          </address>
+        </addressbook>
+      </assignee>
+    </assignees>
+    <examiners>
+      <primary-examiner>
+        <last-name>Cuchlinski, Jr.</last-name>
+        <first-name>William A.</first-name>
+        <department>2144</department>
+      </primary-examiner>
+      <assistant-examiner>
+        <last-name>Phan</last-name>
+        <first-name>Tam T.</first-name>
+      </assistant-examiner>
+    </examiners>
+  </us-bibliographic-data-grant>
+  <abstract id="abstract">
+    <p id="P-00001" num="00001">A gateway provides communication of tightly coupled XA transactions to a server hosting a DBMS and makes efficient use of domain socket pairs to implement demultiplexing in the gateway. The gateway includes a TCP/IP listener process which accepts connection requests from a transaction manager. Logical agents represent the application connection and are managed by a logical agent scheduler and are passed within the gateway using domain socket pairs. Gateway agents are dedicated to identified tightly coupled XA transactions to provide tightly coupled XA transaction support for DBMS systems which do not provide such support directly. The domain socket pairs in the gateway are assigned to logical agent schedulers and are available in a domain socket pool. A wait queue is provided to buffer logical agents when connection to the server is not available or where there are no domain socket pairs available in the domain socket pool. The wait queue is itself implemented as a domain socket pair.</p>
+  </abstract>
+  <drawings id="DRAWINGS">
+    <figure id="Fig-EMI-D00000" num="00000">
+      <img id="EMI-D00000" he="203.20mm" wi="177.67mm" file="US06839732-20050104-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00001" num="00001">
+      <img id="EMI-D00001" he="188.34mm" wi="175.01mm" file="US06839732-20050104-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00002" num="00002">
+      <img id="EMI-D00002" he="235.97mm" wi="177.55mm" file="US06839732-20050104-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+  </drawings>
+  <description id="description">
+    <brief-summary-description textdata="1">
+    <heading id="heading-d0e727" level="1">BACKGROUND OF THE INVENTION</heading>
+    <p id="P-00002" num="00002">1. Field of the Invention</p>
+    <p id="P-00003" num="00003">The present invention is directed to an improvement in computing systems and in particular to computing systems which provide for the efficient use of domain socket pairs in communication for tightly coupled transactions.</p>
+    <p id="P-00004" num="00004">2. Description of the Related Art</p>
+    <p id="P-00005" num="00005">In the processing of transactional data, it is common to have a DBMS (database management system) which stores data for retrieval and updating by transactions which are processed by one or more distinct branches of an application. In such systems it is known to include gateways which provide for connections between the application system or systems and a server system which hosts the DBMS. Software has been developed based on the X Open standard XA for handling transactions in such an environment. Commercial systems such as CICS and BEA Tuxedo provide transaction control for an application, based on the XA model. (CICS is a trademark of the IBM Corporation; BEA Tuxedo is a trademark of BEA Systems, Inc.) XA permits several different connections to be established between an application, a gateway and the server hosting the DBMS.</p>
+    <p id="P-00006" num="00006">However, certain DBMSs do not directly support XA. Such a system typically employs a rigid connection pattern to prevent connections being made in a way which will permit execution of transaction operations in the DBMS which are unintended by the applications using the DBMS.</p>
+    <p id="P-00007" num="00007">It is therefore desirable to have a computer system for the connection of applications to a server hosting a non-XA supporting DBMS by way of a gateway which supports the XA standard while providing flexibility in the connectivity between the application and the gateway.</p>
+    <heading id="heading-d0e762" level="1">SUMMARY OF THE INVENTION</heading>
+    <p id="P-00008" num="00008">According to one aspect of the present invention, there is provided an improved system for the efficient use of domain socket pairs in communication for tightly coupled transactions.</p>
+    <p id="P-00009" num="00009">According to another aspect of the present invention, there is provided a computer system for providing a gateway between a transaction manager for managing database transactions from a set of applications, and a server, the computer system including a listener process for receiving inbound connection requests from the transaction manager, a set of gateway agents for establishing connections to the transaction manager for receiving transaction requests and for establishing connections to the server, a wait queue, a logical agent scheduler for managing sets of logical agents, a logical agent comprising data representing a connected application from the transaction manager, each logical agent having an associated inbound connection identifier, whereby the logical agent scheduler passes a selected logical agent and an associated inbound connection identifier to an available gateway agent and where the gateway has no available gateway agent, providing the logical agent and the associated inbound connection identifier to the wait queue, a selected gateway agent removes a logical agent and an associated inbound connection identifier from the wait queue when the selected gateway agent is available and the wait queue is non-empty, and for a logical agent passed by the logical agent scheduler or removed from the wait queue, the gateway agent establishes a connection to the transaction manager as defined by the associated inbound connection identifier and establishing a connection to the server to implement the logical agent.</p>
+    <p id="P-00010" num="00010">According to another aspect of the present invention, there is provided the above computer system in which the gateway implements tightly coupled XA transactions from the set of applications by dedicating a single gateway agent to any given tightly coupled XA transaction, the listener process, the logical agent scheduler and the gateway agents passing logical agents to gateway agents such that any logical agent representing a transaction in that given tightly coupled XA transaction will be executed by a given gateway agent dedicated to that given tightly coupled XA transaction.</p>
+    <p id="P-00011" num="00011">According to another aspect of the present invention, there is provided the above computer system having a free agent list indicating which gateway agents are available for connection to the transaction manager and which are not dedicated to any given tightly coupled XA transaction.</p>
+    <p id="P-00012" num="00012">According to another aspect of the present invention, there is provided the above computer system which is implemented in a UNIX-based environment in which the connections to the transaction manager are TCP/IP socket pairs and in which the passing of logical agents and associated inbound connection endpoint identifiers is implemented by the use of domain socket pairs in the gateway. (UNIX is a registered trademark of the Open Group.)</p>
+    <p id="P-00013" num="00013">According to another aspect of the present invention, there is provided the above computer system in which the wait queue is implemented as a domain socket pair in the gateway.</p>
+    <p id="P-00014" num="00014">According to another aspect of the present invention, there is provided the above computer system in which domain sockets are assigned such that the logical agent scheduler has a domain socket pair dedicated for receiving logical agent and associated inbound connection pairs from the gateway agents and the listener process, and the domain socket pairs for other communication in the gateway are obtained from a pool of domain sockets, whereby in the case that no domain socket pair is available in the domain socket pool for transfer of a logical agent and associated inbound connection pair the logical agent scheduler will place the logical agent and associated inbound connection pair in the domain socket pair which implements the wait queue.</p>
+    <p id="P-00015" num="00015">According to another aspect of the present invention, there is a gateway for demultiplexing connections from a first system to a second system, the gateway comprising internal processes which are selectively connected to implement the demultiplexing function of the gateway, the gateway including a wait queue, the wait queue providing a buffering function for both the connections between the first system and the second system and for the connections between the internal processes.</p>
+    <p id="P-00016" num="00016">According to another aspect of the present invention, there is provided the above gateway in which the connections between the first system and the second system are TCP/IP socket pairs and the connections between the internal processes are domain socket pairs, and in which the wait queue is implemented by a domain socket pair.</p>
+    <p id="P-00017" num="00017">According to another aspect of the present invention, there is provided a computer system for demultiplexing a set of TCP/IP inbound connections to a set of Outbound connections, the computer system including a plurality of scheduler processes for providing TCP/IP inbound connections to agent processes for establishing corresponding Outbound connections, the scheduler processes and the agent processes communicating by domain socket pairs in the computer system, each scheduler process having a dedicated domain socket pair for receiving a TCP/IP inbound connection endpoint, the domain socket pairs for communication to the agent processes being available from a pool of domain sockets.</p>
+    <p id="P-00018" num="00018">According to another aspect of the present invention, there is provided the above computer system including a wait queue implemented as a domain socket pair, the wait queue receiving a TCP/IP inbound connection endpoint where no agent process is available for implementing the TCP/IP inbound connection and from which non-empty wait queue an available agent process will remove a TCP/IP inbound connection endpoint to establish a TCP/IP inbound connection and an outbound connection.</p>
+    <p id="P-00019" num="00019">According to another aspect of the present invention, there is provided a computer program product for use with a computer including a central processing unit and random access memory, said computer program product including a computer usable medium having computer readable code means embodied in the medium providing a gateway as described above.</p>
+    <p id="P-00020" num="00020">Advantages of the present invention include a gateway which supports an agent affinity for all connections for transactions participating in a global transaction. Server resources are reduced for each application by demultiplexing inbound connections to a smaller number of connections to the DBMS server. Multiple applications are able to be demultiplexed to a single outbound connection on well defined boundaries.</p>
+    </brief-summary-description>
+    <brief-description-drawings textdata="1">
+    <description-of-drawings>
+      <heading id="heading-d0e838" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+      <p id="P-00021" num="00021">The preferred embodiment of the invention is shown in the drawings, wherein:</p>
+      <p id="P-00022" num="00022"><figref idref="DRAWINGS">FIG. 1</figref> is a block diagram illustrating an example transaction manager and a server connected by a gateway according to the preferred embodiment of the invention; and</p>
+      <p id="P-00023" num="00023"><figref idref="DRAWINGS">FIG. 2</figref> is a block diagram illustrating components in the gateway of the preferred embodiment.</p>
+    </description-of-drawings>
+    </brief-description-drawings>
+    <detailed-description textdata="1">
+    <p id="P-00024" num="00024">In the drawings, the preferred embodiment of the invention is illustrated by way of example. It is to be expressly understood that the description and drawings are only for the purpose of illustration and as an aid to understanding, and are not intended as a definition of the limits of the invention.</p>
+    <heading id="heading-d0e875" level="1">DESCRIPTION OF THE PREFERRED EMBODIMENT</heading>
+    <p id="P-00025" num="00025"><figref idref="DRAWINGS">FIG. 1</figref> is a block diagram illustrating an example transaction manager <b>10</b>, gateway <b>12</b>, and server <b>14</b>. Server <b>14</b> hosts a DBMS which does not directly support the XA protocol. Gateway <b>12</b> has multiple agents represented in the example of <figref idref="DRAWINGS">FIG. 1</figref> as gateway agent_<b>1</b>, gateway agent_<b>2</b>, . . . gateway agent_n. The gateway agents in the example of <figref idref="DRAWINGS">FIG. 1</figref> are Unix processes which establish connections between transaction manager <b>10</b> and server <b>14</b>, using TCP/IP sockets. It will be appreciated by those skilled in the art that other types of connection to server <b>14</b> are also possible. As is shown in <figref idref="DRAWINGS">FIG. 1</figref>, transaction manager <b>10</b> has many potential connections to gateway <b>12</b>, which are selectively connected to server <b>14</b>. In <figref idref="DRAWINGS">FIG. 1</figref>, the three gateway agents illustrated are shown connected, while other inbound connections to gateway <b>12</b> (from transaction manager <b>10</b>) are not shown connected to server <b>14</b>. In this way, <figref idref="DRAWINGS">FIG. 1</figref> shows gateway <b>12</b> acting as a demultiplexer (or concentrator) for connections from transaction manager <b>10</b>.</p>
+    <p id="P-00026" num="00026"><figref idref="DRAWINGS">FIG. 2</figref> is a block diagram illustrating a extremely simple example of the architecture of gateway <b>12</b>. Gateway <b>12</b> in the example of the preferred embodiment is implemented in UNIX in a TCP/IP environment. Those skilled in the art will appreciate that the preferred embodiment may be implement in other environments with similar process and socket management structures. As shown in <figref idref="DRAWINGS">FIG. 1</figref>, gateway <b>12</b> manages inbound TCP/IP sockets between transaction manager <b>10</b> and gateway <b>12</b>. In <figref idref="DRAWINGS">FIG. 2</figref>, gateway agent <b>20</b> and gateway agent <b>22</b> are shown with inbound socket connections represented by horizontal arrows. Similarly, gateway agents <b>20</b>, <b>22</b> are shown with outbound socket connections (to server <b>14</b>) represented by vertical arrows.</p>
+    <p id="P-00027" num="00027">Gateway <b>12</b> in the preferred embodiment manages the connections between transaction manager <b>10</b> and server <b>14</b> by creating logical agents. A logical agent in the preferred embodiment is an entity which represents a connected application (a connection from transaction manager <b>10</b>) and has associated data representing information and control blocks required by the application. A logical agent scheduler is shown in <figref idref="DRAWINGS">FIG. 2</figref> as LAS <b>24</b>. LAS <b>24</b> manages the relationship between logical agents and gateway agents (represented as gateway agents <b>20</b>, <b>22</b> in FIG. <b>2</b>). Gateway agents <b>20</b>, <b>22</b> execute application requests, but have no permanent attachment to any particular application. The gateway agent owns all the information and control blocks required to implement a connection to the server for an inbound application. By dividing up agents into logical agents and gateway agents, the system of the preferred embodiment is able to achieve a demultiplexing, or concentrating, function as is set out below.</p>
+    <p id="P-00028" num="00028">Referring to <figref idref="DRAWINGS">FIG. 2</figref>, TCP/IP listener <b>26</b> is shown. TCP/IP listener <b>26</b> listens for requests for a connection made by transaction manager <b>10</b>. When TCP/IP listener <b>26</b> receives such a connection request, it generates a logical agent and records the associated TCP/IP inbound connection endpoint. The logical agent and the TCP/IP inbound connection endpoint are passed by the TCP/IP listener to other processes illustrated in <figref idref="DRAWINGS">FIG. 2</figref> according to the availability of resources.</p>
+    <p id="P-00029" num="00029">In UNIX platforms, TCP/IP socket endpoints may be passed between processes using domain socket pairs. <figref idref="DRAWINGS">FIG. 2</figref> shows example connections for the transfer of such messages in gateway <b>12</b>. Each message is sent through a connected domain socket pair. Each message contains two parts, a control part and a data part. The control part contains the inbound TCP/IP connection end-point, and the data part contains the address of the logical agent control block. This guarantees that the TCP/IP connection end-point and the logical agent that owns it always stay together during the transfer.</p>
+    <p id="P-00030" num="00030">In the system of the preferred embodiment, gateway <b>12</b> supports XA compliant transactions and will generate connections to a server hosting a DBMS which does not support XA verbs. For example, a server with a 390 or 400 variation of DB2 UDB will not process XA verb statements when connecting to those servers via the X Open DRDA protocol. (DB2 and DB2 Universal Database are trademarks of the IBM Corporation.) However, gateway <b>12</b> imposes a single and exclusive gateway agent connection for all requests participating in the same tightly coupled XA transaction. In this way, all tightly coupled statements, that is all statements sharing the same transfer identifier (XID) under the XA protocol, will use the same connection to the server, even if such SQL requests are received from different applications. This will ensure that agent level affinity is achieved for the system, despite the backend DBMS system not supporting the XA protocol.</p>
+    <p id="P-00031" num="00031">The logic which provides this connectivity functionality is found in the processes shown in FIG. <b>2</b>. Gateway agents (<b>20</b>, <b>22</b> in the example of <figref idref="DRAWINGS">FIG. 2</figref>) are potentially associated with specific global transactions. When a new connection request from transaction manager <b>10</b> is received by TCP/IP listener <b>26</b>, free agent list <b>28</b> is checked. If a gateway agent is on free agent list <b>28</b> then it is not associated with an ongoing global transaction. In this case, the logical agent and inbound connection identifier for the new connection are passed to the free gateway agent to create the inbound connection to the transaction manager. The gateway agent is removed from the free agent list.</p>
+    <p id="P-00032" num="00032">In the example of <figref idref="DRAWINGS">FIG. 2</figref>, the connection between TCP/IP listener <b>26</b> and gateway agent <b>20</b> represents such a transfer of logical agent and inbound connection from TCP/IP listener <b>26</b> to gateway agent <b>20</b>. Once the connection request is passed to gateway agent <b>20</b>, then the gateway agent establishes a connection to transaction manager <b>10</b> and receives requests from transaction manager <b>10</b>. If gateway agent <b>20</b> receives an XA request starting a global transaction (XA REG START) the result is a unique XID being assigned to the global transaction. The system of the preferred embodiment will then reserve that gateway agent for transactions associated with the unique XID, only. Gateway agent <b>20</b> will if necessary establish a connection (or reuse an existing connection) to server <b>14</b> and all transactions with the unique XID will be communicated to server <b>14</b> with the same connection. This results in the agent affinity aspect of the tightly coupled XA transaction model being implemented without the server <b>14</b> DBMS having direct support for that protocol.</p>
+    <p id="P-00033" num="00033">Other connections from transaction manager <b>10</b> to gateway <b>12</b> may be used to sent transaction requests which are part of the global transaction being handled by gateway <b>20</b>. In this case, those logical agents corresponding to such requests are sent to gateway agent <b>20</b>, as described below. Gateway agent <b>20</b> will establish inbound socket connections to transaction manager <b>10</b> to permit those transactions to be sent to server <b>14</b> from gateway <b>20</b>. Gateway <b>20</b> may also receive requests from transaction manager <b>10</b> which do not relate to the global transaction which gateway <b>20</b> is dedicated to handling. In this case, the request (as defined by the logical agent and inbound socket information) is sent to the appropriate gateway agent, as described below.</p>
+    <p id="P-00034" num="00034">LAS <b>24</b> manages the scheduling of logical agents in the gateway. LAS <b>24</b> will determine what XID, if any, is associated with a particular logical agent. The logical agent scheduler LAS <b>24</b> will determine whether a gateway agent is dedicated to the XID for the logical agent. If there is a gateway agent which is dedicated to the XID and which is available, the logical agent is sent to that gateway agent. If there is no gateway agent available to handle the particular logical agent, the logical agent and the associated inbound connection socket identifier are placed in wait queue <b>30</b>.</p>
+    <p id="P-00035" num="00035">Due to the restriction of the number of open file handles that exists for certain platforms (for example, a maximum of 2000 on AIX) it may be necessary to have more than one logical agent scheduler when the number of logical agents exceeds the file handle limit. (AIX is a trademark of the IBM Corporation.) This is because in protocols such as TCP/IP, sockets are file handles and one file handle is required in the logical agent scheduler per logical agent. Although the preferred embodiment is shown with reference to only a single logical agent scheduler, and only two gateway agents, it will be understood by those skilled in the art that the gateway of the invention may be scaled up to include many gateway agents for a logical agent scheduler, and many logical agent schedulers.</p>
+    <p id="P-00036" num="00036">As is indicated by the connections shown in <figref idref="DRAWINGS">FIG. 2</figref>, agents in the preferred embodiment may also pass logical agents and inbound connection identifiers between each other. This is shown in the figure by the connection between gateway agent <b>20</b> and gateway agent <b>22</b>. Where an inbound connection established by a gateway agent results in the passing of a transaction request for a global transaction unrelated to the gateway agent receiveing the request, the gateway agent will not pass the request on to the server. In such a case, the logical agent corresponding to the transaction request is sent to the appropriate gateway agent.</p>
+    <p id="P-00037" num="00037">When a global transaction branch is completed, for example by receipt of the XA END by the gateway agent, the logical agent associated with that global transaction is passed back to LAS <b>24</b> to permit LAS <b>24</b> to recognize that the gateway agent is available for other requests in the global transaction. LAS <b>24</b> will look into a request received from transaction manager <b>10</b> to determine if a given transaction request is part of any defined global transaction, and if so, to pass the logical agent corresponding to the transaction request to the appropriate gateway agent (associated with the global transaction), if available, or wait queue <b>30</b>, if not.</p>
+    <p id="P-00038" num="00038">When a global transaction is committed or rolled back, the global transaction is completed and an identifier for the gateway agent is placed in free agent list <b>28</b>.</p>
+    <p id="P-00039" num="00039">As is indicated above, the architecture of gateway <b>12</b> permits many connections from transaction manager <b>10</b> to be demultiplexed to fewer connections to server <b>14</b>, by gateway <b>12</b>. In addition, gateway <b>12</b>, by dedicating gateway agents to a single global transaction, permits the tightly coupled transaction of an XA protocol to be effectively implemented by gateway <b>12</b> and server <b>14</b> despite the lack of direct XA support in the DBMS hosted by server <b>14</b>.</p>
+    <p id="P-00040" num="00040">In the system of the preferred embodiment each of gateway agents <b>20</b>, <b>22</b>, TCP/IP listener <b>26</b>, LAS <b>24</b>, and free agent list <b>28</b> are implemented as processes in the UNIX environment.</p>
+    <p id="P-00041" num="00041">The system of the preferred embodiment uses a particular arrangement of domain socket pairs to efficiently implement gateway <b>12</b> to make efficient use of system resources while providing a demultiplexing or concentrating function for the connection between transaction manager <b>10</b> and server <b>14</b>. The system of the preferred embodiment uses a domain socket pool, in conjunction with assigned domain socket pairs, to provide an efficient mechanism for communication of local agent information in gateway <b>12</b>.</p>
+    <p id="P-00042" num="00042">A heavy loaded system may have dozens of LASs, and hundreds of gateway agents. In such a system, maintaining an large pool of domain socket pairs to handle connections between different processes may be onerous in terms of system resources. However, a too small pool of domain socket pairs with an inefficient usage algorithm may cause the transfer of logical agent information to be a performance bottleneck in the system.</p>
+    <p id="P-00043" num="00043">Each logical agent scheduler (LAS) in the gateway has a dedicated domain socket pair. This domain socket pair acts as a single reader, multiple sender, queue. When the TCP/IP listener or a gateway agent seeks to transfer a logical agent to a logical agent scheduler, it sends a message through the send socket of the dedicated domain socket pair for that LAS. The logical agent scheduler will read from the receive socket of the domain socket pair to receive the logical agent and its TCP/IP connection end-point.</p>
+    <p id="P-00044" num="00044">Communication to a gateway agent is performed using a domain socket pair from the pool of domain socket pairs. When a TCP/IP listener, or a gateway agent, tries to hand a logical agent to a gateway agent, it will request a domain socket pair from the free pool. The steps of acquiring and releasing domain socket pairs are protected by the pool latch.</p>
+    <p id="P-00045" num="00045">If the process is able to find a free domain socket pair, it will send the logical agent along with the TCP/IP connection end-point through the domain socket pair to the appropriate gateway agent. When the target gateway agent receives the logical agent and the TCP/IP connection end-point, it will mark the domain socket pair to be free.</p>
+    <p id="P-00046" num="00046">If the process cannot be provided with a free domain socket pair from the pool, the TCP/IP listener or the gateway agent that is requiring the transfer will wait on a waitpost area. The next process to free up a domain socket pair will post it and the waiting process will be able to make use of the domain socket pair.</p>
+    <p id="P-00047" num="00047">When a logical agent scheduler seeks to transfer a logical agent to a gateway agent, it will also request a domain socket pair from the pool, as a TCP/IP listener or a gateway agent does. However, if the LAS cannot find a free domain socket pair in the domain socket pool, it will send the logical agent and its TCP/IP connection end-point to a wait queue (shown in <figref idref="DRAWINGS">FIG. 2</figref> as wait queue <b>30</b>). The wait queue is implemented by a dedicated domain socket pair. This domain socket pair acts as a multiple reader multiple sender queue. When a gateway agent finishes serving a transaction, it will read from this domain socket pair to get another logical agent to serve. In this way, wait queue <b>30</b> provides a function of buffering logical agents where there are no domain sockets in the pool available for LAS to gateway agent communication.</p>
+    <p id="P-00048" num="00048">As will be apparent to those skilled in the art, the size of the domain socket pool for a given system will depend on the resources available and the expected utilization of those resources.</p>
+    <p id="P-00049" num="00049">There is a similar buffering function carried out if there are fewer gateway agents available than required at a particular time. If a logical agent scheduler detects an incoming request from one of the applications, but there is no available gateway agent to serve the request (because there are more logical agents then gateway agents), it will also send the new logical agent to the dedicated domain socket pair forming the wait queue. A gateway agent will then remove the logical agent from the wait queue once the gateway agent is available. In this way, wait queue <b>30</b>, as implemented in the preferred embodiment of the invention, provides a queue for both gateway agent resources and domain socket resources.</p>
+    <p id="P-00050" num="00050">By assigning different domain socket pairs in this manner, an efficient use of the system resources at gateway <b>12</b> is achieved, while permitting a demultiplexing of requests from transaction manager <b>10</b> and permitting connections to server <b>14</b>.</p>
+    <p id="P-00051" num="00051">Although a preferred embodiment of the present invention has been described here in detail, it will be appreciated by those skilled in the art, that variations may be made thereto, without departing from the spirit of the invention or the scope of the appended claims.</p>
+    </detailed-description>
+  </description>
+  <claims id="claims">
+    <claim textdata="1" id="CLM-00001" num="00001">
+      <claim-text>1. A computer system for providing a gateway between a transaction manager for managing database transactions from a set of applications, and a server, the computer system comprising:
+        <claim-text>a listener process for receiving inbound connection requests from the transaction manager; </claim-text>
+        <claim-text>a set of gateway agents for establishing connections to the transaction manager for receiving transaction requests and for establishing connections to the server; </claim-text>
+        <claim-text>a wait queue; and </claim-text>
+        <claim-text>a logical agent scheduler for managing sets of logical agents, a logical agent comprising data representing a connected application from the transaction manager, each logical agent having an associated inbound connection identifier, </claim-text>
+        <claim-text>whereby the logical agent scheduler passes a selected logical agent and an associated inbound connection identifier to an available gateway agent and where the gateway has no available gateway agent, providing the logical agent and the associated inbound connection identifier to the wait queue, </claim-text>
+        <claim-text>a selected gateway agent removes a logical agent and an associated inbound connection identifier from the wait queue when the selected gateway agent is available and the wait queue is non-empty, and </claim-text>
+        <claim-text>for a logical agent passed by the logical agent scheduler or removed from the wait queue, the gateway agent establishes a connection to the transaction manager as defined by the associated inbound connection identifier and establishes a connection to the server to implement the logical agent. </claim-text>
+      </claim-text>
+    </claim>
+    <claim id="CLM-00002" num="00002">
+      <claim-text>2. The computer system of <claim-ref idref="CLM-00001">claim 1</claim-ref> in which the gateway implements tightly coupled XA transactions from the set of applications by dedicating a single gateway agent to any given tightly coupled XA transaction, the listener process, the logical agent scheduler and the gateway agents passing logical agents to gateway agents such that any logical agent representing a transaction in that given tightly coupled XA transaction will be executed by a given gateway agent dedicated to that given tightly coupled XA transaction.</claim-text>
+    </claim>
+    <claim id="CLM-00003" num="00003">
+      <claim-text>3. The computer system of <claim-ref idref="CLM-00002">claim 2</claim-ref>, further comprising a free agent list indicating which gateway agents are available for connection to the transaction manager and which are not dedicated to any given tightly coupled XA transaction.</claim-text>
+    </claim>
+    <claim id="CLM-00004" num="00004">
+      <claim-text>4. The computer system of <claim-ref idref="CLM-00002">claim 2</claim-ref> implemented in a UNIX-based environment in which the connections to the transaction manager are TCP/IP socket pairs and in which the passing of logical agents and associated inbound connection endpoint identifiers is implemented by the use of domain socket pairs in the gateway.</claim-text>
+    </claim>
+    <claim id="CLM-00005" num="00005">
+      <claim-text>5. The computer system of <claim-ref idref="CLM-00004">claim 4</claim-ref> in which the wait queue is implemented as a domain socket pair in the gateway.</claim-text>
+    </claim>
+    <claim id="CLM-00006" num="00006">
+      <claim-text>6. The computer system of <claim-ref idref="CLM-00005">claim 5</claim-ref> in which domain sockets are assigned such that the logical agent scheduler has a domain socket pair dedicated for receiving logical agent and associated inbound connection pairs from the gateway agents and the listener process, and the domain socket pairs for other communication in the gateway are obtained from a pool of domain sockets,
+        <claim-text>whereby in the case that no domain socket pair is available in the domain socket pool for transfer of a logical agent and associated inbound connection pair the logical agent scheduler will place the logical agent and associated inbound connection pair in the domain socket pair which implements the wait queue. </claim-text>
+      </claim-text>
+    </claim>
+    <claim id="CLM-00007" num="00007">
+      <claim-text>7. A gateway for demultiplexing connection from a first system to a second system, the gateway comprising:
+        <claim-text>internal process which are selectively connected to implement a demultiplexing function of the gateway; </claim-text>
+        <claim-text>a wait queue for providing a buffering function for both the connections between the first system and the second system and for connections between the internal process, wherein the connection between the first and second system are TCP/IP socket pairs and the connections between the internal process are domain socket pairs and wherein the wait queue is implemented by a domain socket pair. </claim-text>
+      </claim-text>
+    </claim>
+    <claim id="CLM-00008" num="00008">
+      <claim-text>8. A computer system for demultiplexing a set of TCP/IP inbound connections to a set of outbound connections, the computer system comprising:
+        <claim-text>a plurality of scheduler process for providing TCP/IP inbound connections to agent processes for establishing corresponding outbound connections, the scheduler processes and the agent processes communicating by domain socket pairs int the computer system, each scheduler process having a dedicated domain socket pair for receiving a TCP/IP inbound connection endpoint, the domain socket pairs for communication to the agent processes being available from a pool of domain sockets; and </claim-text>
+        <claim-text>a wait queue implemented as a domain socket pair, the wait queue receiving a TCP/IP inbound connection endpoint where no agent process is available for implementing the TCP/IP inbound connection and from which non-empty wait queue an available agent process will remove a TCP/IP inbound connection endpoint to establish a TCP/IP inbound connection and an outbound connection. </claim-text>
+      </claim-text>
+    </claim>
+    <claim id="CLM-00009" num="00009">
+      <claim-text>9. A computer program product for use with a computer comprising a central processing unit and random access memory, said computer program product comprising a computer usable medium having computer readable code means embodied in said medium providing a gateway between a transaction manager for managing database transactions from a set of applications, and a server, said computer program product comprising:
+        <claim-text>computer readable program code means for implementing a listener process for receiving inbound connection requests from the transaction manager, </claim-text>
+        <claim-text>computer readable program code means for implementing a set of gateway agents for establishing connections to the transaction manager for receiving transaction requests and for establishing connections to the server, </claim-text>
+        <claim-text>computer readable program code means for implementing a wait queue, </claim-text>
+        <claim-text>computer readable program code means for implementing a logical agent scheduler for managing sets of logical agents, a logical agent comprising data representing a connected application from the transaction manager, each logical agent having an associated inbound connection identifier, </claim-text>
+        <claim-text>whereby the logical agent scheduler passes a selected logical agent and an associated inbound connection identifier to an available gateway agent and where the gateway has no available gateway agent, providing the logical agent and the associated inbound connection identifier to the wait queue, </claim-text>
+        <claim-text>a selected gateway agent removes a logical agent and an associated inbound connection identifier from the wait queue when the selected gateway agent is available and the wait queue is non-empty, and </claim-text>
+        <claim-text>for a logical agent passed by the logical agent scheduler or removed from the wait queue, the gateway agent establishes a connection to the transaction manager as defined by the associated inbound connection identifier and establishes a connection to the server to implement the logical agent. </claim-text>
+      </claim-text>
+    </claim>
+    <claim id="CLM-00010" num="00010">
+      <claim-text>10. The computer program product of <claim-ref idref="CLM-00009">claim 9</claim-ref> in which computer readable program code means implements tightly coupled XA transactions from the set of applications by dedicating a single gateway agent to any given tightly coupled XA transaction, the listener process, the logical agent scheduler and the gateway agents passing logical agents to gateway agents such that any logical agent representing a transaction in that given tightly coupled XA transaction will be executed by a given gateway agent dedicated to that given tightly coupled XA transaction.</claim-text>
+    </claim>
+    <claim id="CLM-00011" num="00011">
+      <claim-text>11. The computer program product of <claim-ref idref="CLM-00010">claim 10</claim-ref> further comprising computer readable program code means for implementing a free agent list indicating which gateway agents are available for connection to the transaction manager and which are not dedicated to any given tightly coupled XA transaction.</claim-text>
+    </claim>
+    <claim id="CLM-00012" num="00012">
+      <claim-text>12. The computer program product of <claim-ref idref="CLM-00009">claim 9</claim-ref> for implementation in a UNIX-based environment in which the connections to the transaction manager are TCP/IP socket pairs and in which computer program product
+        <claim-text>the passing of logical agents and associated inbound connection endpoint identifiers is implemented by the use of domain socket pairs in the gateway, </claim-text>
+        <claim-text>the wait queue is implemented as a domain socket pair in the gateway, </claim-text>
+        <claim-text>the logical agent scheduler has a domain socket pair dedicated for receiving logical agent and associated inbound connection pairs from the gateway agents and the listener process, and </claim-text>
+        <claim-text>the domain socket pairs for other communication in the gateway are obtained from a pool of domain sockets, </claim-text>
+        <claim-text>whereby in the case that no domain socket pair is available in the domain socket pool for transfer of a logical agent and associated inbound connection pair the logical agent scheduler will place the logical agent and associated inbound connection pair in the domain socket pair which implements the wait queue. </claim-text>
+      </claim-text>
+    </claim>
+    <claim id="CLM-00013" num="00013">
+      <claim-text>13. A computer program product for use with a computer comprising a central processing unit and random access memory, said computer program product comprising a computer usable medium having computer readable code means embodied in said medium providing a gateway for demultiplexing connections from a first system to a second system, said computer program product comprising:
+        <claim-text>computer readable program code means for implementing internal process in the gateway which are selectively connected to implement the demultiplexing function of the gateway, and </claim-text>
+        <claim-text>computer readable program code means for implementing a wait queue, the wait queue providing a buffering function for both the connections between the first system and the second system and for connections between the internal processes, wherein the connections between the first system and the second system are TCP/IP socket pairs and the computer readable program code means for implementing the connections between the internal processes implements such connections by using domain socket pairs, and wherein said computer readable program code means for implementing a wait queue uses a domain socket pair to implement the wait queue. </claim-text>
+      </claim-text>
+    </claim>
+    <claim id="CLM-00014" num="00014">
+      <claim-text>14. A computer program product for use with a computer comprising a central processing unit and random access memory, said computer product comprising a computer usable medium having computer readable code means embodied in said medium providing a computer system for demultiplexing a set of TCP/IP inbound connections to a set of outbound connections, said computer program product comprising:
+        <claim-text>computer readable program code means for implementing a plurality of scheduler processes for providing TCP/IP inbound connections to agent processes for establishing corresponding outbound connections, the scheduler processes and the agent processes communicating by domain socket pairs in the computer system, each scheduler process having a dedicated domain socket pair for receiving a TCP/IP inbound connection endpoint, the domain socket pairs for communication to the agent processes being available from a pool of domain sockets; and </claim-text>
+        <claim-text>computer readable program code means for implementing a wait queue implemented as a domain socket pair, the wait queue receiving a TCP/IP inbound connection endpoint where no agent process is available for implementing the TCP/IP inbound connection and from which non-empty wait queue an available agent process will remove a TCP/IP inbound connection endpoint to establish a TCP/IP inbound connection and an outbound connection.</claim-text>
+      </claim-text>
+    </claim>
+  </claims>
+</us-patent-grant>

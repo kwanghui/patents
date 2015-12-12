@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v40-2004-12-02.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v40 2004-12-02" file="US06875514-20050405.XML" status="PARALLEL-RUN" id="us-patent-grant" country="US" date-produced="20050322" date-publ="20050405">
+  <us-bibliographic-data-grant>
+    <publication-reference>
+      <document-id>
+        <country>
+          <brief-description-drawings textdata="1"><test></test></brief-description-drawings>
+        </country>
+        <doc-number>06875514</doc-number>
+        <kind>B2</kind>
+        <date>20050405</date>
+      </document-id>
+    </publication-reference>
+  </us-bibliographic-data-grant>
+</us-patent-grant>
